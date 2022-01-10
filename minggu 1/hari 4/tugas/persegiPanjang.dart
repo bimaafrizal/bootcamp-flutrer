@@ -10,12 +10,13 @@ void main(List<String> args) {
 
   for (int i = 1; i <= lebar; i++) {
     for (int j = 1; j <= panjang; j++) {
+      stdout.write("*");
       // bintang += "#";
       // print(bintang);
       //stdout.write("*" + "\n");
-      print("*");
       // print("\n");
     }
+    print(" ");
     // print("\n");
   }
 }
