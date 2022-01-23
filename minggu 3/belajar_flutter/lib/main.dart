@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'Tugas/Tugas11/Telegram.dart';
+import 'Tugas/Tugas12/latihan/FlutterStyle.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Telegram(),
+      home: FlutterStyle(),
     );
   }
 }
