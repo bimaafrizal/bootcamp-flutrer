@@ -1,3 +1,5 @@
+import 'package:belajar_flutter/Tugas/Tugas12/tugas/HomeScreen.dart';
+import 'package:belajar_flutter/Tugas/Tugas12/tugas/LoginScreen.dart';
 import 'package:flutter/material.dart';
 import 'Tugas/Tugas11/Telegram.dart';
 import 'Tugas/Tugas12/latihan/FlutterStyle.dart';
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: FlutterStyle(),
+      home: LoginScreen(),
     );
   }
 }
